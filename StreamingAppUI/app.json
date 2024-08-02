@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "StreamingAppUI",
+    "slug": "StreamingAppUI",
+    "scheme": "StreamingAppUI",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fergus2000.StreamingAppUI"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fergus2000.StreamingAppUI"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2f8a9bbe-2b14-4788-9f50-5775d7ad2399"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

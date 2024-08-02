@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=ZBCUegTZF7M&list=LL&index=3
+
+https://docs.expo.dev/build/setup/
+eas build --platform android --profile preview
+eas build --platform ios --profile preview
+
+expo router
+native wind
